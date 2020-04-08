@@ -38,8 +38,7 @@ ramips_setup_interfaces()
 		;;
 	phicomm,k2p)
 		ucidef_add_switch "switch0" \
-			"0:lan" "1:lan" "2:lan" "3:lan" "4:wan" "6@eth0"
-		ucidef_set_interface_lan "eth0.1 ra0 rax0 apcli0 apclix0"
+			"0:wan" "1:lan" "2:lan" "3:lan" "4:lan" "6@eth0"
 		;;
 	alfa-network,quad-e4g|\
 	netgear,r6220|\
